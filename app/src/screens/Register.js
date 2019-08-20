@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import { Container, Content, Text, Card, Header, Body, Button, Title, CardItem } from 'native-base';
 
-class Categories extends Component{
+class Register extends Component{
     render(){
         return(
             <Container>
                 <Content>
                     <Card>
                         <Text>
-                            Categories
+                            Register
                         </Text>
                     </Card>
                 </Content>
@@ -17,4 +17,4 @@ class Categories extends Component{
     }
 }
 
-export default Categories
+export default Register
